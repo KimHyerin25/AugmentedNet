@@ -1,11 +1,10 @@
 """The argparse interfaces for the runnable scripts in AugmentedNet."""
-
 from argparse import ArgumentParser
 
 from . import models
 from .data import available_collections as availableCollections
 from .dataset_npz_generator import __doc__ as npz_description
-from .dataset_tsv_generator import __doc__ as tsv_description
+from .note_book_hyerin.dataset_tsv_generator import __doc__ as tsv_description
 from .train import __doc__ as train_description
 from .inference import __doc__ as inference_description
 from .feature_representation import TRANSPOSITIONKEYS

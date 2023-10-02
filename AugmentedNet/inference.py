@@ -169,7 +169,7 @@ def predict(model, inputPath):
     dfout["offset"] = paddedIndex
     dfout["measure"] = paddedMeasure
     chords = solveChordSegmentation(dfout)
-    s = music21.converter.parse(inputPath, forceSource=True)
+    s = music21.converter.parse(inputPath)
     ts = {
         (ts.measureNumber, float(ts.beat)): ts.ratioString
         for ts in s.flat.getElementsByClass("TimeSignature")

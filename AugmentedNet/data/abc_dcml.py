@@ -284,13 +284,13 @@ annotation_score_duples = {
 splits = {
     "training": [
         "abc-op131-3",
-        "abc-op95-4",
+        # "abc-op95-4",
         "abc-op132-2",
         "abc-op95-2",
         "abc-op130-1",
         "abc-op95-1",
         "abc-op127-3",
-        "abc-op18-no6-2",
+        # "abc-op18-no6-2",
         "abc-op127-4",
         "abc-op130-2",
         "abc-op18-no5-3",
